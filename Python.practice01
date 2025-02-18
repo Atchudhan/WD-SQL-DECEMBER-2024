@@ -1,0 +1,108 @@
+#variables
+a='python'
+b='is'
+c='awesome'
+print(a)
+print(a+b)
+print(a,b,c)
+print(a+b+c)
+#Assign multiple values
+fruits='apple','banana','kiwi','orange'
+a,b,c,d=fruits
+print(a)
+print(a,b)
+print(a+b+c)
+#mathematical operators
+a=10
+b=5
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+print(a**2)
+print(a**3)
+print(int(a+b)*5)
+print(a+b*5)
+a=78.9
+print(round(a))
+import math
+print(math.ceil(a))
+#Global variable
+a="awesome"
+
+def myfunc():
+    print("hi python is" + a)
+    
+myfunc()
+
+a='awesome'
+
+def myfunc():
+    global a
+    a='good'
+    print('hi python is ' + a)
+    
+myfunc()
+print('hi python is ' + a)
+
+a='awersome'
+
+def myfunc():
+    a='well'
+    print('Hi python is ' + a)
+    
+myfunc()
+print('Hi python is ' + a)
+
+#TYPE CASTING
+
+otp='9988'
+print('my otp is ' + otp)
+
+otp=9988
+print('my otp is ' + str(otp))
+
+count=28.5
+print(int(count))
+print(count+1)
+print(str(count) + '1')
+
+#SLICING 
+
+name='abitha'
+print(name[1])
+print(name[2:5])
+print(name[2:])
+print(name[:6])
+print(name[-1:])
+print(name[:-1])
+print(name[-2:-5])
+
+#METHODS
+
+name='my name is pri'
+
+print(name.upper())
+print(name.lower())
+print(name.title())
+print(len(name))
+
+name='priyaa'
+
+print(name.count(a))
+print(name.find(a))
+
+#ASSIGNMENT
+
+
+name = 'Anand'
+leaves=15
+year=2021
+print("Dear" + (name) + ",") 
+print("you have" + str(leaves) + "days of leave balance for this year" + str(year))
+
+
+
+
+
